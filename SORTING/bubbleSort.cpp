@@ -1,6 +1,6 @@
 //this is not optimised code for sorting
 //for(int j=0;j<n-1-i;j++) => this is more optimised => we can optimise it more further
-//we can also use in built fuction for sorting in case of vectors altough writing algorithm helps you build ur logic
+//we can also use in built function for sorting in case of vectors altough writing algorithm helps you build ur logic
 //check time and space analysis for each case
 
 #include<iostream>
