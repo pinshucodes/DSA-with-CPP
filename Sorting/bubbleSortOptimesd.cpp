@@ -1,5 +1,4 @@
 //more optimised code than previous code
-
 #include<iostream>
 using namespace std;
 int main(){
@@ -9,9 +8,7 @@ int main(){
     for(int i=0;i<n;i++){
         cout<<arr[i]<<" ";
     }
-
     // bubble sort algo
-
     for(int i=0;i<n-1;i++){   //n-1 passes
         bool flag= true;      //checking if sorting achieved
         for(int j=0;j<n-1-i;j++){        //traverse
@@ -25,9 +22,7 @@ int main(){
         }
     }
     cout<<endl;
-    
     // for printing
-
     for (int i = 0; i < n; i++){
         cout<<arr[i]<<" ";
     }
