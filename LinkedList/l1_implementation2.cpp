@@ -13,6 +13,13 @@ public:
     }
 };
 
+
+void displayReverse(Node* head){
+    if (head == nullptr) return;
+    displayReverse(head -> next);
+    cout<<head -> val<<" ";
+}
+
 // printing the value of linked list by using function
 // time complexity will be O(n)
 // space complexity will be O(1)
@@ -58,6 +65,8 @@ int main(){
 
     display(a);
     display2(a);
+    cout<<endl;
+    displayReverse(a);
 
     return 0;
 }

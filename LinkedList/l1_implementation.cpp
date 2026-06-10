@@ -27,12 +27,23 @@ int main(){
     // }
 
     //
+    
+    
+    // even this is not better approach although its correct
 
-    Node temp=a;
-    while(1){
-        cout<<temp.val<<" ";
-        if(temp.next==NULL) break;
-        temp= *(temp.next);
+    // Node temp=a;
+    // while(1){
+    //     cout<<temp.val<<" ";
+    //     if(temp.next==NULL) break;
+    //     temp= *(temp.next);
+    // }
+
+    // interview/ production code approach
+
+    Node* temp = &a;
+    while(temp!=NULL){
+        cout<<temp->val<<" ";
+        temp=temp->next;
     }
 
 
